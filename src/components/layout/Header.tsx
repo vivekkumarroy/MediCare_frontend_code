@@ -8,8 +8,6 @@ import { cn } from '@/lib/cn';
 const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Doctors', href: '/doctors' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
 ];
 
 const hospitalLocations = [
@@ -90,9 +88,37 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [hospitalsOpen, setHospitalsOpen] = useState(false);
   const [activeCity, setActiveCity] = useState('Bangalore');
+  const [aboutActive, setAboutActive] = useState(false);
   const hospitalsRef = useRef<HTMLDivElement>(null);
+  const pendingScroll = useRef<string | null>(null);
   const location = useLocation();
   const navigate = useNavigate();
+
+  // After navigation completes, scroll to pending hash
+  useEffect(() => {
+    if (pendingScroll.current && location.pathname === '/') {
+      const id = pendingScroll.current;
+      pendingScroll.current = null;
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+      }, 50);
+    }
+  }, [location]);
+
+  // Clear about active when navigating away from home
+  useEffect(() => {
+    if (location.pathname !== '/') setAboutActive(false);
+  }, [location.pathname]);
+
+  function handleAboutClick() {
+    setAboutActive(true);
+    if (location.pathname === '/') {
+      document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      pendingScroll.current = 'about';
+      navigate('/');
+    }
+  }
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -126,6 +152,7 @@ export function Header() {
               <a
                 key={link.href}
                 href={link.href}
+                onClick={() => setAboutActive(false)}
                 className={cn(
                   'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
                   isActive
@@ -137,6 +164,18 @@ export function Header() {
               </a>
             );
           })}
+
+          <button
+            onClick={handleAboutClick}
+            className={cn(
+              'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
+              aboutActive
+                ? 'text-primary-600 bg-primary-50'
+                : 'text-slate-600 dark:text-slate-400 hover:text-primary-600 hover:bg-slate-50 dark:hover:bg-slate-800'
+            )}
+          >
+            About
+          </button>
 
           {/* Hospitals dropdown */}
           <div ref={hospitalsRef} className="relative">
@@ -271,11 +310,20 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className="px-4 py-3 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 font-medium"
-                onClick={() => setMobileOpen(false)}
+                onClick={() => { setAboutActive(false); setMobileOpen(false); }}
               >
                 {link.label}
               </a>
             ))}
+            <button
+              className="px-4 py-3 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-100 font-medium text-left"
+              onClick={() => {
+                setMobileOpen(false);
+                handleAboutClick();
+              }}
+            >
+              About
+            </button>
           </nav>
           <div className="flex flex-col gap-2 p-4 border-t border-slate-100 dark:border-slate-800 mt-auto">
             {isAuthenticated && user ? (

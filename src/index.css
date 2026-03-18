@@ -46,3 +46,7 @@
     background-clip: text;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
