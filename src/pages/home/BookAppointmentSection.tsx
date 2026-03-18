@@ -11,7 +11,7 @@ const featured = [
 
 export function BookAppointmentSection() {
   return (
-    <section className="py-16 px-6 bg-white border-t border-slate-100">
+    <section id="book-appointment" className="py-16 px-6 bg-white border-t border-slate-100">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="flex items-end justify-between mb-10">

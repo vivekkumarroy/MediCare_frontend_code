@@ -7,7 +7,6 @@ import { AboutSection } from './home/AboutSection';
 import { DoctorsCarousel } from './home/DoctorsCarousel';
 import { PatientReviewsSection } from './home/PatientReviewsSection';
 import { StatsSection } from './home/StatsSection';
-import { ContactSection } from './home/ContactSection';
 import { Footer } from './home/Footer';
 
 export default function HomePage() {
@@ -21,7 +20,6 @@ export default function HomePage() {
       <DoctorsCarousel />
       <PatientReviewsSection />
       <StatsSection />
-      <ContactSection />
       <Footer />
     </Layout>
   );

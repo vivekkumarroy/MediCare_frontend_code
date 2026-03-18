@@ -21,7 +21,7 @@ export function DoctorsCarousel() {
   const displayed = doctors?.slice(0, 8) ?? [];
 
   return (
-    <section className="py-20 px-6" style={{ backgroundColor: '#e8e4d9' }}>
+    <section id="doctors" className="py-20 px-6" style={{ backgroundColor: '#e8e4d9' }}>
       <div className="max-w-6xl mx-auto">
         <div className="flex items-end justify-between mb-10">
           <div>
