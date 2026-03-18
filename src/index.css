@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    background-color: #e8eef5 !important;
+    color: #1a2e3b;
+    -webkit-font-smoothing: antialiased;
+    --bot-bubble: #f1f5f9;
+    --bot-text: #1e293b;
+  }
+
+  html.dark, html.dark body {
+    background-color: #0a0f1a !important;
+    color: #e2e8f0;
+    --bot-bubble: #1e2d45;
+    --bot-text: #e2e8f0;
+  }
+
+  html.dark .bg-white { background-color: #1e2535 !important; }
+  html.dark .bg-slate-50 { background-color: #151c2c !important; }
+  html.dark .bg-slate-100 { background-color: #1e2535 !important; }
+  html.dark .text-slate-700 { color: #cbd5e1 !important; }
+  html.dark .text-slate-600 { color: #94a3b8 !important; }
+  html.dark .text-slate-500 { color: #64748b !important; }
+  html.dark .text-\[\#1a2e3b\] { color: #e2e8f0 !important; }
+  html.dark .border-slate-100 { border-color: #2d3748 !important; }
+  html.dark .border-slate-200 { border-color: #374151 !important; }
+  html.dark header { background-color: #0f1629 !important; border-color: #1e2d45 !important; }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, #3a8a99 0%, #4a9ead 60%, #5bb8cc 100%);
+  }
+  .gradient-hero {
+    background: linear-gradient(135deg, #1a2e3b 0%, #2a4a5e 40%, #3a7a8e 80%, #4a9ead 100%);
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #3a8a99, #4a9ead);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

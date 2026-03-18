@@ -1,0 +1,49 @@
+[
+  {
+    "id": "u1",
+    "name": "Alice Thompson",
+    "email": "alice@hospital.com",
+    "password": "patient123",
+    "role": "patient",
+    "phone": "212-555-0101",
+    "avatarUrl": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "id": "u2",
+    "name": "Brian Wallace",
+    "email": "brian@hospital.com",
+    "password": "patient456",
+    "role": "patient",
+    "phone": "310-555-0102",
+    "avatarUrl": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": "u3",
+    "name": "Dr. Arjun Sharma",
+    "email": "james.carter@hospital.com",
+    "password": "doctor123",
+    "role": "doctor",
+    "doctorId": "d1",
+    "phone": "212-555-0201",
+    "avatarUrl": "https://i.pravatar.cc/150?img=1"
+  },
+  {
+    "id": "u4",
+    "name": "Dr. Priya Nair",
+    "email": "sarah.mitchell@hospital.com",
+    "password": "doctor456",
+    "role": "doctor",
+    "doctorId": "d2",
+    "phone": "310-555-0202",
+    "avatarUrl": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": "u5",
+    "name": "Admin User",
+    "email": "admin@hospital.com",
+    "password": "admin123",
+    "role": "admin",
+    "phone": "773-555-0301",
+    "avatarUrl": "https://i.pravatar.cc/150?img=5"
+  }
+]

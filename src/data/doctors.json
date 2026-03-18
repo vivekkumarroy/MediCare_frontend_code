@@ -1,0 +1,2864 @@
+﻿[
+    {
+        "id":  "d1",
+        "name":  "Dr. Arjun Sharma",
+        "specialty":  "Cardiology",
+        "department":  "Cardiology",
+        "location":  "Bangalore",
+        "bio":  "Dr. Arjun Sharma is a board-certified cardiologist with over 20 years of experience treating complex heart conditions.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=1",
+        "rating":  4.9,
+        "experience":  20,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "09:30 AM",
+                                                  "11:00 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "10:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Apollo MediCare Hospital, Bangalore",
+        "cabin":  "Cabin 101 - Cardiology Wing",
+        "consultationFee":  800
+    },
+    {
+        "id":  "d2",
+        "name":  "Dr. Priya Nair",
+        "specialty":  "Neurology",
+        "department":  "Neurology",
+        "location":  "Patna",
+        "bio":  "Dr. Priya Nair specializes in neurological disorders including epilepsy, migraines, and multiple sclerosis.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=2",
+        "rating":  4.8,
+        "experience":  15,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "09:00 AM",
+                                                  "11:00 AM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Patna MediCare Hospital",
+        "cabin":  "Cabin 204 - Neurology Wing",
+        "consultationFee":  600
+    },
+    {
+        "id":  "d3",
+        "name":  "Dr. Rajesh Kumar",
+        "specialty":  "Orthopedics",
+        "department":  "Orthopedics",
+        "location":  "Lucknow",
+        "bio":  "Dr. Rajesh Kumar is an orthopedic surgeon specializing in joint replacement, sports injuries, and spine surgery.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=3",
+        "rating":  4.7,
+        "experience":  18,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Thursday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:30 AM",
+                                                  "02:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:30 PM"
+                                              ]
+                           },
+        "hospitalName":  "Lucknow MediCare Hospital",
+        "cabin":  "Cabin 312 - Orthopedics Wing",
+        "consultationFee":  700
+    },
+    {
+        "id":  "d4",
+        "name":  "Dr. Ananya Singh",
+        "specialty":  "Pediatrics",
+        "department":  "Pediatrics",
+        "location":  "Noida",
+        "bio":  "Dr. Ananya Singh is a compassionate pediatrician dedicated to the health and well-being of children from newborns to adolescents.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=4",
+        "rating":  4.9,
+        "experience":  12,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "11:00 AM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "08:00 AM",
+                                                  "09:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "10:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Noida MediCare Hospital",
+        "cabin":  "Cabin 105 - Pediatrics Wing",
+        "consultationFee":  500
+    },
+    {
+        "id":  "d5",
+        "name":  "Dr. Vikram Mehta",
+        "specialty":  "Dermatology",
+        "department":  "Dermatology",
+        "location":  "Gandhinagar",
+        "bio":  "Dr. Vikram Mehta is a dermatologist with expertise in skin cancer detection, acne treatment, and cosmetic dermatology.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=5",
+        "rating":  4.6,
+        "experience":  10,
+        "availableDays":  [
+                              "Tuesday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "09:00 AM",
+                                                  "01:30 PM",
+                                                  "04:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Gandhinagar MediCare Hospital",
+        "cabin":  "Cabin 208 - Dermatology Wing",
+        "consultationFee":  650
+    },
+    {
+        "id":  "d6",
+        "name":  "Dr. Sunita Patel",
+        "specialty":  "General Medicine",
+        "department":  "Internal Medicine",
+        "location":  "Kota",
+        "bio":  "Dr. Sunita Patel is a general practitioner with broad expertise in preventive care, chronic disease management, and acute illness.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=6",
+        "rating":  4.5,
+        "experience":  8,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Wednesday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:30 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "08:00 AM",
+                                                  "10:30 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "01:30 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Kota MediCare Hospital",
+        "cabin":  "Cabin 110 - General Medicine Wing",
+        "consultationFee":  400
+    },
+    {
+        "id":  "d7",
+        "name":  "Dr. Amit Verma",
+        "specialty":  "Oncology",
+        "department":  "Oncology",
+        "location":  "Bangalore",
+        "bio":  "Dr. Amit Verma is an oncologist specializing in breast cancer, lung cancer, and targeted therapy treatments.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=7",
+        "rating":  4.8,
+        "experience":  22,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Thursday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "04:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Apollo MediCare Hospital, Bangalore",
+        "cabin":  "Cabin 302 - Oncology Wing",
+        "consultationFee":  1000
+    },
+    {
+        "id":  "d8",
+        "name":  "Dr. Kavita Reddy",
+        "specialty":  "Cardiology",
+        "department":  "Cardiology",
+        "location":  "Patna",
+        "bio":  "Dr. Kavita Reddy focuses on preventive cardiology, heart failure management, and cardiac rehabilitation.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=8",
+        "rating":  4.7,
+        "experience":  14,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "09:30 AM",
+                                                  "02:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:30 PM"
+                                              ]
+                           },
+        "hospitalName":  "Patna MediCare Hospital",
+        "cabin":  "Cabin 103 - Cardiology Wing",
+        "consultationFee":  750
+    },
+    {
+        "id":  "d9",
+        "name":  "Dr. Suresh Iyer",
+        "specialty":  "Neurology",
+        "department":  "Neurology",
+        "location":  "Lucknow",
+        "bio":  "Dr. Suresh Iyer is a neurologist with expertise in stroke management, Parkinson\u0027s disease, and neurodegenerative disorders.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=9",
+        "rating":  4.6,
+        "experience":  17,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Lucknow MediCare Hospital",
+        "cabin":  "Cabin 205 - Neurology Wing",
+        "consultationFee":  700
+    },
+    {
+        "id":  "d10",
+        "name":  "Dr. Deepa Gupta",
+        "specialty":  "Pediatrics",
+        "department":  "Pediatrics",
+        "location":  "Noida",
+        "bio":  "Dr. Deepa Gupta specializes in pediatric infectious diseases, immunizations, and developmental pediatrics.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=10",
+        "rating":  4.9,
+        "experience":  9,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "11:00 AM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Noida MediCare Hospital",
+        "cabin":  "Cabin 108 - Pediatrics Wing",
+        "consultationFee":  550
+    },
+    {
+        "id":  "d11",
+        "name":  "Dr. Manish Joshi",
+        "specialty":  "Orthopedics",
+        "department":  "Orthopedics",
+        "location":  "Gandhinagar",
+        "bio":  "Dr. Manish Joshi is an orthopedic specialist focusing on minimally invasive surgery, knee and hip replacements.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=11",
+        "rating":  4.7,
+        "experience":  16,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "04:30 PM"
+                                              ]
+                           },
+        "hospitalName":  "Gandhinagar MediCare Hospital",
+        "cabin":  "Cabin 310 - Orthopedics Wing",
+        "consultationFee":  800
+    },
+    {
+        "id":  "d12",
+        "name":  "Dr. Rekha Pillai",
+        "specialty":  "Dermatology",
+        "department":  "Dermatology",
+        "location":  "Kota",
+        "bio":  "Dr. Rekha Pillai specializes in eczema, psoriasis, and advanced laser treatments for skin rejuvenation.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=12",
+        "rating":  4.5,
+        "experience":  7,
+        "availableDays":  [
+                              "Wednesday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "10:00 AM",
+                                                  "01:30 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Kota MediCare Hospital",
+        "cabin":  "Cabin 212 - Dermatology Wing",
+        "consultationFee":  600
+    },
+    {
+        "id":  "d13",
+        "name":  "Dr. Rohit Agarwal",
+        "specialty":  "General Medicine",
+        "department":  "Internal Medicine",
+        "location":  "Bangalore",
+        "bio":  "Dr. Rohit Agarwal provides comprehensive primary care with a focus on diabetes management and hypertension.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=13",
+        "rating":  4.4,
+        "experience":  13,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Wednesday",
+                              "Thursday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "09:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "08:00 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           },
+        "hospitalName":  "Apollo MediCare Hospital, Bangalore",
+        "cabin":  "Cabin 115 - General Medicine Wing",
+        "consultationFee":  500
+    },
+    {
+        "id":  "d14",
+        "name":  "Dr. Neha Bhatia",
+        "specialty":  "Oncology",
+        "department":  "Oncology",
+        "location":  "Patna",
+        "bio":  "Dr. Neha Bhatia is an oncologist with expertise in colorectal cancer, immunotherapy, and clinical trials.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=14",
+        "rating":  4.8,
+        "experience":  19,
+        "availableDays":  [
+                              "Tuesday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "09:00 AM",
+                                                  "01:30 PM",
+                                                  "04:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Patna MediCare Hospital",
+        "cabin":  "Cabin 305 - Oncology Wing",
+        "consultationFee":  900
+    },
+    {
+        "id":  "d15",
+        "name":  "Dr. Sanjay Mishra",
+        "specialty":  "Cardiology",
+        "department":  "Cardiology",
+        "location":  "Lucknow",
+        "bio":  "Dr. Sanjay Mishra is an interventional cardiologist specializing in angioplasty, stenting, and structural heart disease.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=15",
+        "rating":  4.9,
+        "experience":  25,
+        "availableDays":  [
+                              "Monday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:30 AM",
+                                                  "02:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:30 PM"
+                                              ]
+                           },
+        "hospitalName":  "Lucknow MediCare Hospital",
+        "cabin":  "Cabin 102 - Cardiology Wing",
+        "consultationFee":  850
+    },
+    {
+        "id":  "d16",
+        "name":  "Dr. Pooja Rao",
+        "specialty":  "Neurology",
+        "department":  "Neurology",
+        "location":  "Noida",
+        "bio":  "Dr. Pooja Rao focuses on headache disorders, sleep medicine, and cognitive neurology.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=16",
+        "rating":  4.6,
+        "experience":  11,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "04:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Noida MediCare Hospital",
+        "cabin":  "Cabin 207 - Neurology Wing",
+        "consultationFee":  700
+    },
+    {
+        "id":  "d17",
+        "name":  "Dr. Anil Tiwari",
+        "specialty":  "Orthopedics",
+        "department":  "Orthopedics",
+        "location":  "Gandhinagar",
+        "bio":  "Dr. Anil Tiwari specializes in pediatric orthopedics, scoliosis correction, and limb deformity treatment.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=17",
+        "rating":  4.7,
+        "experience":  21,
+        "availableDays":  [
+                              "Tuesday",
+                              "Wednesday",
+                              "Thursday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Gandhinagar MediCare Hospital",
+        "cabin":  "Cabin 314 - Orthopedics Wing",
+        "consultationFee":  750
+    },
+    {
+        "id":  "d18",
+        "name":  "Dr. Smita Desai",
+        "specialty":  "Dermatology",
+        "department":  "Dermatology",
+        "location":  "Kota",
+        "bio":  "Dr. Smita Desai is a cosmetic and medical dermatologist specializing in Mohs surgery and skin cancer treatment.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=18",
+        "rating":  4.8,
+        "experience":  14,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Thursday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:30 AM",
+                                                  "02:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "04:30 PM"
+                                              ]
+                           },
+        "hospitalName":  "Kota MediCare Hospital",
+        "cabin":  "Cabin 216 - Dermatology Wing",
+        "consultationFee":  650
+    },
+    {
+        "id":  "d19",
+        "name":  "Dr. Kiran Malhotra",
+        "specialty":  "General Medicine",
+        "department":  "Internal Medicine",
+        "location":  "Bangalore",
+        "bio":  "Dr. Kiran Malhotra is a family medicine physician with a focus on geriatric care, preventive screenings, and lifestyle medicine.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=19",
+        "rating":  4.4,
+        "experience":  30,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Wednesday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "11:00 AM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "08:30 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "08:00 AM",
+                                                  "10:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Apollo MediCare Hospital, Bangalore",
+        "cabin":  "Cabin 118 - General Medicine Wing",
+        "consultationFee":  450
+    },
+    {
+        "id":  "d20",
+        "name":  "Dr. Divya Chaudhary",
+        "specialty":  "Pediatrics",
+        "department":  "Pediatrics",
+        "location":  "Patna",
+        "bio":  "Dr. Divya Chaudhary is a pediatric endocrinologist specializing in childhood diabetes, growth disorders, and thyroid conditions.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=20",
+        "rating":  4.9,
+        "experience":  5,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "11:00 AM"
+                                              ],
+                               "2026-03-19":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "09:00 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "09:30 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ]
+                           },
+        "hospitalName":  "Patna MediCare Hospital",
+        "cabin":  "Cabin 109 - Pediatrics Wing",
+        "consultationFee":  600
+    },
+    {
+        "id":  "d21",
+        "name":  "Dr. Nandita Krishnan",
+        "specialty":  "Gynecology",
+        "department":  "Obstetrics \u0026 Gynecology",
+        "location":  "Bangalore",
+        "hospitalName":  "Manipal Hospital, Bangalore",
+        "cabin":  "Cabin 201 - Gynecology Wing",
+        "consultationFee":  750,
+        "bio":  "Dr. Nandita Krishnan is a senior gynecologist with 16 years of experience in high-risk pregnancies and laparoscopic surgery.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=21",
+        "rating":  4.8,
+        "experience":  16,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d22",
+        "name":  "Dr. Harish Balasubramanian",
+        "specialty":  "Cardiology",
+        "department":  "Cardiology",
+        "location":  "Bangalore",
+        "hospitalName":  "Fortis Hospital, Bannerghatta",
+        "cabin":  "Cabin 104 - Cardiology Wing",
+        "consultationFee":  900,
+        "bio":  "Dr. Harish Balasubramanian is an interventional cardiologist specialising in complex coronary interventions and structural heart disease.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=22",
+        "rating":  4.9,
+        "experience":  22,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d23",
+        "name":  "Dr. Meera Iyer",
+        "specialty":  "Psychiatry",
+        "department":  "Psychiatry",
+        "location":  "Bangalore",
+        "hospitalName":  "Narayana Health City, Bangalore",
+        "cabin":  "Cabin 401 - Psychiatry Wing",
+        "consultationFee":  700,
+        "bio":  "Dr. Meera Iyer is a psychiatrist with expertise in anxiety disorders, depression, and cognitive behavioural therapy.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=23",
+        "rating":  4.7,
+        "experience":  13,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Thursday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d24",
+        "name":  "Dr. Ravi Shankar Pillai",
+        "specialty":  "Urology",
+        "department":  "Urology",
+        "location":  "Bangalore",
+        "hospitalName":  "Columbia Asia Hospital, Whitefield",
+        "cabin":  "Cabin 303 - Urology Wing",
+        "consultationFee":  800,
+        "bio":  "Dr. Ravi Shankar Pillai specialises in minimally invasive urological procedures, kidney stones, and prostate disorders.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=24",
+        "rating":  4.6,
+        "experience":  18,
+        "availableDays":  [
+                              "Wednesday",
+                              "Friday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d25",
+        "name":  "Dr. Shweta Sinha",
+        "specialty":  "Gynecology",
+        "department":  "Obstetrics \u0026 Gynecology",
+        "location":  "Patna",
+        "hospitalName":  "AIIMS Patna",
+        "cabin":  "Cabin 202 - Gynecology Wing",
+        "consultationFee":  500,
+        "bio":  "Dr. Shweta Sinha is an obstetrician and gynaecologist with expertise in maternal-foetal medicine and minimally invasive surgery.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=25",
+        "rating":  4.7,
+        "experience":  14,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d26",
+        "name":  "Dr. Aakash Tiwari",
+        "specialty":  "Orthopedics",
+        "department":  "Orthopedics",
+        "location":  "Patna",
+        "hospitalName":  "Ruban Memorial Hospital",
+        "cabin":  "Cabin 313 - Orthopedics Wing",
+        "consultationFee":  650,
+        "bio":  "Dr. Aakash Tiwari is an orthopedic surgeon specialising in sports injuries, arthroscopy, and joint replacement surgeries.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=26",
+        "rating":  4.6,
+        "experience":  11,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d27",
+        "name":  "Dr. Priyanka Jha",
+        "specialty":  "Dermatology",
+        "department":  "Dermatology",
+        "location":  "Patna",
+        "hospitalName":  "Paras HMRI Hospital, Patna",
+        "cabin":  "Cabin 214 - Dermatology Wing",
+        "consultationFee":  550,
+        "bio":  "Dr. Priyanka Jha is a dermatologist specialising in cosmetic dermatology, hair loss treatment, and skin allergy management.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=27",
+        "rating":  4.5,
+        "experience":  9,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d28",
+        "name":  "Dr. Vivek Chandra",
+        "specialty":  "Gastroenterology",
+        "department":  "Gastroenterology",
+        "location":  "Lucknow",
+        "hospitalName":  "Medanta Hospital, Lucknow",
+        "cabin":  "Cabin 405 - Gastroenterology Wing",
+        "consultationFee":  750,
+        "bio":  "Dr. Vivek Chandra is a gastroenterologist with expertise in endoscopy, liver diseases, and inflammatory bowel disorders.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=28",
+        "rating":  4.8,
+        "experience":  17,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d29",
+        "name":  "Dr. Alka Srivastava",
+        "specialty":  "Pediatrics",
+        "department":  "Pediatrics",
+        "location":  "Lucknow",
+        "hospitalName":  "Sahara Hospital, Lucknow",
+        "cabin":  "Cabin 106 - Pediatrics Wing",
+        "consultationFee":  500,
+        "bio":  "Dr. Alka Srivastava is a paediatrician with a focus on neonatal care, childhood nutrition, and developmental disorders.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=29",
+        "rating":  4.7,
+        "experience":  15,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d30",
+        "name":  "Dr. Mohit Saxena",
+        "specialty":  "Oncology",
+        "department":  "Oncology",
+        "location":  "Lucknow",
+        "hospitalName":  "Charak Hospital \u0026 Research Centre",
+        "cabin":  "Cabin 306 - Oncology Wing",
+        "consultationFee":  950,
+        "bio":  "Dr. Mohit Saxena is an oncologist specialising in haematological malignancies, targeted therapy, and bone marrow transplants.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=30",
+        "rating":  4.9,
+        "experience":  20,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d31",
+        "name":  "Dr. Tanvi Kapoor",
+        "specialty":  "Ophthalmology",
+        "department":  "Ophthalmology",
+        "location":  "Noida",
+        "hospitalName":  "Jaypee Hospital, Noida",
+        "cabin":  "Cabin 501 - Ophthalmology Wing",
+        "consultationFee":  600,
+        "bio":  "Dr. Tanvi Kapoor is an ophthalmologist specialising in cataract surgery, LASIK, and retinal disorders.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=31",
+        "rating":  4.7,
+        "experience":  12,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d32",
+        "name":  "Dr. Siddharth Malhotra",
+        "specialty":  "Cardiology",
+        "department":  "Cardiology",
+        "location":  "Noida",
+        "hospitalName":  "Felix Hospital, Noida",
+        "cabin":  "Cabin 105 - Cardiology Wing",
+        "consultationFee":  850,
+        "bio":  "Dr. Siddharth Malhotra is a cardiologist with expertise in echocardiography, cardiac imaging, and preventive cardiology.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=32",
+        "rating":  4.8,
+        "experience":  19,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d33",
+        "name":  "Dr. Ritu Agarwal",
+        "specialty":  "Endocrinology",
+        "department":  "Endocrinology",
+        "location":  "Noida",
+        "hospitalName":  "Fortis Hospital, Noida",
+        "cabin":  "Cabin 407 - Endocrinology Wing",
+        "consultationFee":  700,
+        "bio":  "Dr. Ritu Agarwal is an endocrinologist specialising in diabetes management, thyroid disorders, and hormonal imbalances.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=33",
+        "rating":  4.6,
+        "experience":  14,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d34",
+        "name":  "Dr. Gaurav Bhatia",
+        "specialty":  "Neurology",
+        "department":  "Neurology",
+        "location":  "Noida",
+        "hospitalName":  "Max Super Speciality Hospital, Noida",
+        "cabin":  "Cabin 208 - Neurology Wing",
+        "consultationFee":  750,
+        "bio":  "Dr. Gaurav Bhatia is a neurologist with expertise in epilepsy, movement disorders, and neuro-rehabilitation.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=34",
+        "rating":  4.7,
+        "experience":  16,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d35",
+        "name":  "Dr. Hetal Shah",
+        "specialty":  "Gynecology",
+        "department":  "Obstetrics \u0026 Gynecology",
+        "location":  "Gandhinagar",
+        "hospitalName":  "AIIMS Gandhinagar",
+        "cabin":  "Cabin 203 - Gynecology Wing",
+        "consultationFee":  600,
+        "bio":  "Dr. Hetal Shah is a gynaecologist with expertise in infertility treatment, laparoscopic surgery, and prenatal care.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=35",
+        "rating":  4.8,
+        "experience":  15,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d36",
+        "name":  "Dr. Chirag Patel",
+        "specialty":  "Orthopedics",
+        "department":  "Orthopedics",
+        "location":  "Gandhinagar",
+        "hospitalName":  "Zydus Hospital, Ahmedabad",
+        "cabin":  "Cabin 315 - Orthopedics Wing",
+        "consultationFee":  700,
+        "bio":  "Dr. Chirag Patel is an orthopedic surgeon with expertise in robotic joint replacement and complex spine surgeries.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=36",
+        "rating":  4.7,
+        "experience":  17,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d37",
+        "name":  "Dr. Foram Desai",
+        "specialty":  "Dermatology",
+        "department":  "Dermatology",
+        "location":  "Gandhinagar",
+        "hospitalName":  "Sterling Hospital, Ahmedabad",
+        "cabin":  "Cabin 217 - Dermatology Wing",
+        "consultationFee":  600,
+        "bio":  "Dr. Foram Desai is a dermatologist specialising in vitiligo treatment, cosmetic procedures, and paediatric dermatology.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=37",
+        "rating":  4.6,
+        "experience":  10,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d38",
+        "name":  "Dr. Rajendra Sharma",
+        "specialty":  "Gastroenterology",
+        "department":  "Gastroenterology",
+        "location":  "Kota",
+        "hospitalName":  "New Medical College Hospital, Kota",
+        "cabin":  "Cabin 406 - Gastroenterology Wing",
+        "consultationFee":  550,
+        "bio":  "Dr. Rajendra Sharma is a gastroenterologist with expertise in colonoscopy, hepatitis management, and GI oncology.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=38",
+        "rating":  4.6,
+        "experience":  18,
+        "availableDays":  [
+                              "Monday",
+                              "Wednesday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d39",
+        "name":  "Dr. Sunita Goyal",
+        "specialty":  "Ophthalmology",
+        "department":  "Ophthalmology",
+        "location":  "Kota",
+        "hospitalName":  "Aravali Hospital, Kota",
+        "cabin":  "Cabin 502 - Ophthalmology Wing",
+        "consultationFee":  500,
+        "bio":  "Dr. Sunita Goyal is an ophthalmologist with expertise in glaucoma management, corneal transplants, and paediatric eye care.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=39",
+        "rating":  4.5,
+        "experience":  12,
+        "availableDays":  [
+                              "Tuesday",
+                              "Thursday",
+                              "Saturday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-19":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-21":  [
+                                                  "10:00 AM",
+                                                  "12:00 PM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-07":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "08:00 AM",
+                                                  "10:00 AM",
+                                                  "01:00 PM"
+                                              ],
+                               "2026-03-24":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-04":  [
+                                                  "08:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-26":  [
+                                                  "08:30 AM",
+                                                  "10:30 AM",
+                                                  "02:30 PM"
+                                              ],
+                               "2026-03-28":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-04-02":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-31":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ]
+                           }
+    },
+    {
+        "id":  "d40",
+        "name":  "Dr. Pankaj Meena",
+        "specialty":  "General Medicine",
+        "department":  "Internal Medicine",
+        "location":  "Kota",
+        "hospitalName":  "Bombay Hospital, Kota",
+        "cabin":  "Cabin 119 - General Medicine Wing",
+        "consultationFee":  400,
+        "bio":  "Dr. Pankaj Meena is a general physician with expertise in infectious diseases, preventive medicine, and chronic disease management.",
+        "avatarUrl":  "https://i.pravatar.cc/150?img=40",
+        "rating":  4.4,
+        "experience":  10,
+        "availableDays":  [
+                              "Monday",
+                              "Tuesday",
+                              "Wednesday",
+                              "Thursday",
+                              "Friday"
+                          ],
+        "availableSlots":  {
+                               "2026-03-25":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-17":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-06":  [
+                                                  "09:00 AM",
+                                                  "10:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-18":  [
+                                                  "09:00 AM",
+                                                  "11:00 AM",
+                                                  "03:00 PM"
+                                              ],
+                               "2026-03-27":  [
+                                                  "08:30 AM",
+                                                  "11:00 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-04-03":  [
+                                                  "10:00 AM",
+                                                  "11:30 AM",
+                                                  "02:00 PM"
+                                              ],
+                               "2026-03-20":  [
+                                                  "10:00 AM",
+                                                  "01:00 PM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-04-01":  [
+                                                  "09:00 AM",
+                                                  "01:00 PM",
+                                                  "03:30 PM"
+                                              ],
+                               "2026-03-30":  [
+                                                  "09:00 AM",
+                                                  "10:30 AM",
+                                                  "04:00 PM"
+                                              ],
+                               "2026-03-23":  [
+                                                  "09:30 AM",
+                                                  "11:30 AM",
+                                                  "02:30 PM"
+                                              ]
+                           }
+    }
+]

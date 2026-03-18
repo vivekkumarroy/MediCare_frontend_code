@@ -1,0 +1,14 @@
+[
+  { "id": "a1",  "patientId": "p1", "doctorId": "d1",  "doctorName": "Dr. Arjun Sharma",   "specialty": "Cardiology",      "date": "2026-03-17", "time": "09:00 AM", "status": "upcoming",   "notes": "Follow-up for hypertension management" },
+  { "id": "a2",  "patientId": "p1", "doctorId": "d2",  "doctorName": "Dr. Priya Nair",     "specialty": "Neurology",       "date": "2026-03-19", "time": "09:00 AM", "status": "upcoming",   "notes": "Migraine evaluation" },
+  { "id": "a3",  "patientId": "p1", "doctorId": "d1",  "doctorName": "Dr. Arjun Sharma",   "specialty": "Cardiology",      "date": "2025-12-10", "time": "09:00 AM", "status": "completed",  "notes": "Initial cardiology consultation" },
+  { "id": "a4",  "patientId": "p1", "doctorId": "d3",  "doctorName": "Dr. Rajesh Kumar",   "specialty": "Orthopedics",     "date": "2025-11-05", "time": "10:00 AM", "status": "cancelled",  "notes": "Patient rescheduled" },
+  { "id": "a5",  "patientId": "p2", "doctorId": "d4",  "doctorName": "Dr. Ananya Singh",   "specialty": "Pediatrics",      "date": "2026-03-18", "time": "09:00 AM", "status": "upcoming",   "notes": "Annual wellness check" },
+  { "id": "a6",  "patientId": "p2", "doctorId": "d5",  "doctorName": "Dr. Vikram Mehta",   "specialty": "Dermatology",     "date": "2026-03-20", "time": "10:00 AM", "status": "upcoming",   "notes": "Acne treatment follow-up" },
+  { "id": "a7",  "patientId": "p2", "doctorId": "d4",  "doctorName": "Dr. Ananya Singh",   "specialty": "Pediatrics",      "date": "2025-10-15", "time": "08:00 AM", "status": "completed",  "notes": "Flu vaccination" },
+  { "id": "a8",  "patientId": "p2", "doctorId": "d6",  "doctorName": "Dr. Sunita Patel",   "specialty": "General Medicine","date": "2025-09-22", "time": "09:00 AM", "status": "cancelled",  "notes": "Emergency conflict" },
+  { "id": "a9",  "patientId": "p3", "doctorId": "d7",  "doctorName": "Dr. Amit Verma",     "specialty": "Oncology",        "date": "2026-03-18", "time": "10:00 AM", "status": "upcoming",   "notes": "Chemotherapy consultation" },
+  { "id": "a10", "patientId": "p3", "doctorId": "d8",  "doctorName": "Dr. Kavita Reddy",   "specialty": "Cardiology",      "date": "2026-03-19", "time": "08:30 AM", "status": "upcoming",   "notes": "Cardiac stress test review" },
+  { "id": "a11", "patientId": "p3", "doctorId": "d7",  "doctorName": "Dr. Amit Verma",     "specialty": "Oncology",        "date": "2025-11-30", "time": "10:00 AM", "status": "completed",  "notes": "Post-chemo evaluation" },
+  { "id": "a12", "patientId": "p3", "doctorId": "d9",  "doctorName": "Dr. Suresh Iyer",    "specialty": "Neurology",       "date": "2025-10-28", "time": "09:00 AM", "status": "completed",  "notes": "Stroke rehabilitation check" }
+]
