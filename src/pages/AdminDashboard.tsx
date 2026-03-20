@@ -1,5 +1,6 @@
 import { useContext, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { useQueryClient } from '@tanstack/react-query';
 import {
   LayoutDashboard, Users, Stethoscope, Star, Heart,
   Menu, LogOut, Pencil, Trash2, Plus, X, Save,
@@ -169,21 +170,21 @@ function DoctorsView({ doctors, setDoctors, appointments }: {
   function handleAdd() {
     const doc: Doctor = { ...newDoc, id: `d${Date.now()}` };
     const updated = [...doctors, doc];
-    setDoctors(updated); saveDoctors(updated);
+    setDoctors(updated);
     setAddOpen(false); setNewDoc(BLANK_DOCTOR);
     toast.success('Doctor added');
   }
 
   function handleDelete(d: Doctor) {
     const updated = doctors.filter(x => x.id !== d.id);
-    setDoctors(updated); saveDoctors(updated);
+    setDoctors(updated);
     setDeleteTarget(null); toast.success('Doctor removed');
   }
 
   function handleEditSave() {
     if (!editForm) return;
     const updated = doctors.map(d => d.id === editForm.id ? editForm : d);
-    setDoctors(updated); saveDoctors(updated);
+    setDoctors(updated);
     setEditDoc(null); setEditForm(null); toast.success('Doctor updated');
   }
 
@@ -513,10 +514,17 @@ export default function AdminDashboard() {
   const { user, logout } = useContext(AuthContext);
   const { appointments } = useContext(AppointmentsContext);
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [view, setView] = useState<View>('overview');
   const [doctors,  setDoctors]  = useState<Doctor[]>(loadDoctors);
   const [patients, setPatients] = useState<Patient[]>(loadPatients);
+
+  function updateDoctors(d: Doctor[]) {
+    setDoctors(d);
+    saveDoctors(d);
+    queryClient.invalidateQueries({ queryKey: ['doctors'] });
+  }
 
   if (!user) return null;
 
@@ -587,7 +595,7 @@ export default function AdminDashboard() {
       <main className="pt-16 md:pl-60">
         <div className="p-4 md:p-6 max-w-6xl">
           {view === 'overview' && <OverviewView doctors={doctors} patients={patients} appointments={appointments} />}
-          {view === 'doctors'  && <DoctorsView  doctors={doctors} setDoctors={setDoctors} appointments={appointments} />}
+          {view === 'doctors'  && <DoctorsView  doctors={doctors} setDoctors={updateDoctors} appointments={appointments} />}
           {view === 'patients' && <PatientsView patients={patients} setPatients={setPatients} doctors={doctors} />}
           {view === 'feedback' && <FeedbackView appointments={appointments} doctors={doctors} />}
           {view === 'revenue'  && <RevenueView  doctors={doctors} appointments={appointments} />}

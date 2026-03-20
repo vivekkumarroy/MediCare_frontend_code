@@ -6,12 +6,18 @@ import prescriptionsData from './prescriptions.json';
 import usersData from './users.json';
 
 const DELAY_MS = 300;
+const DOCTORS_KEY = 'hms_admin_doctors';
 
 const delay = <T>(data: T): Promise<T> =>
   new Promise((resolve) => setTimeout(() => resolve(data), DELAY_MS));
 
-export const fetchDoctors = (): Promise<Doctor[]> =>
-  delay(doctorsData as unknown as Doctor[]);
+export const fetchDoctors = (): Promise<Doctor[]> => {
+  try {
+    const stored = localStorage.getItem(DOCTORS_KEY);
+    if (stored) return delay(JSON.parse(stored) as Doctor[]);
+  } catch {}
+  return delay(doctorsData as unknown as Doctor[]);
+};
 
 export const fetchPatients = (): Promise<Patient[]> =>
   delay(patientsData as Patient[]);
