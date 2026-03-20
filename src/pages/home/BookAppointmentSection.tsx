@@ -4,9 +4,9 @@ import { CalendarDays, ArrowRight, Clock, MapPin, Star } from 'lucide-react';
 import { Button } from '@/components/ui';
 
 const featured = [
-  { id: 'd1', name: 'Dr. Arjun Sharma',   specialty: 'Cardiology',   img: 'https://i.pravatar.cc/150?img=1',  rating: 4.9, location: 'Bangalore', exp: 20 },
-  { id: 'd2', name: 'Dr. Priya Nair',     specialty: 'Neurology',    img: 'https://i.pravatar.cc/150?img=5',  rating: 4.8, location: 'Patna',     exp: 15 },
-  { id: 'd3', name: 'Dr. Rajesh Kumar',   specialty: 'Orthopedics',  img: 'https://i.pravatar.cc/150?img=9',  rating: 4.7, location: 'Lucknow',   exp: 18 },
+  { id: 'd1', name: 'Dr. Arjun Sharma',   specialty: 'Cardiology',   img: 'https://randomuser.me/api/portraits/men/11.jpg',    rating: 4.9, location: 'Bangalore', exp: 20 },
+  { id: 'd2', name: 'Dr. Priya Nair',     specialty: 'Neurology',    img: 'https://randomuser.me/api/portraits/women/44.jpg',  rating: 4.8, location: 'Patna',     exp: 15 },
+  { id: 'd3', name: 'Dr. Rajesh Kumar',   specialty: 'Orthopedics',  img: 'https://randomuser.me/api/portraits/men/22.jpg',    rating: 4.7, location: 'Lucknow',   exp: 18 },
 ];
 
 export function BookAppointmentSection() {

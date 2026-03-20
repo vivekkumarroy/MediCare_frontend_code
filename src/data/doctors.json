@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "d1",
         "name":  "Dr. Arjun Sharma",
@@ -6,7 +6,7 @@
         "department":  "Cardiology",
         "location":  "Bangalore",
         "bio":  "Dr. Arjun Sharma is a board-certified cardiologist with over 20 years of experience treating complex heart conditions.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=1",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/11.jpg",
         "rating":  4.9,
         "experience":  20,
         "availableDays":  [
@@ -81,7 +81,7 @@
         "department":  "Neurology",
         "location":  "Patna",
         "bio":  "Dr. Priya Nair specializes in neurological disorders including epilepsy, migraines, and multiple sclerosis.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=2",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/44.jpg",
         "rating":  4.8,
         "experience":  15,
         "availableDays":  [
@@ -152,7 +152,7 @@
         "department":  "Orthopedics",
         "location":  "Lucknow",
         "bio":  "Dr. Rajesh Kumar is an orthopedic surgeon specializing in joint replacement, sports injuries, and spine surgery.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=3",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/22.jpg",
         "rating":  4.7,
         "experience":  18,
         "availableDays":  [
@@ -223,7 +223,7 @@
         "department":  "Pediatrics",
         "location":  "Noida",
         "bio":  "Dr. Ananya Singh is a compassionate pediatrician dedicated to the health and well-being of children from newborns to adolescents.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=4",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/55.jpg",
         "rating":  4.9,
         "experience":  12,
         "availableDays":  [
@@ -296,7 +296,7 @@
         "department":  "Dermatology",
         "location":  "Gandhinagar",
         "bio":  "Dr. Vikram Mehta is a dermatologist with expertise in skin cancer detection, acne treatment, and cosmetic dermatology.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=5",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/32.jpg",
         "rating":  4.6,
         "experience":  10,
         "availableDays":  [
@@ -367,7 +367,7 @@
         "department":  "Internal Medicine",
         "location":  "Kota",
         "bio":  "Dr. Sunita Patel is a general practitioner with broad expertise in preventive care, chronic disease management, and acute illness.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=6",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/33.jpg",
         "rating":  4.5,
         "experience":  8,
         "availableDays":  [
@@ -446,7 +446,7 @@
         "department":  "Oncology",
         "location":  "Bangalore",
         "bio":  "Dr. Amit Verma is an oncologist specializing in breast cancer, lung cancer, and targeted therapy treatments.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=7",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/45.jpg",
         "rating":  4.8,
         "experience":  22,
         "availableDays":  [
@@ -516,7 +516,7 @@
         "department":  "Cardiology",
         "location":  "Patna",
         "bio":  "Dr. Kavita Reddy focuses on preventive cardiology, heart failure management, and cardiac rehabilitation.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=8",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/66.jpg",
         "rating":  4.7,
         "experience":  14,
         "availableDays":  [
@@ -587,7 +587,7 @@
         "department":  "Neurology",
         "location":  "Lucknow",
         "bio":  "Dr. Suresh Iyer is a neurologist with expertise in stroke management, Parkinson\u0027s disease, and neurodegenerative disorders.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=9",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/55.jpg",
         "rating":  4.6,
         "experience":  17,
         "availableDays":  [
@@ -658,7 +658,7 @@
         "department":  "Pediatrics",
         "location":  "Noida",
         "bio":  "Dr. Deepa Gupta specializes in pediatric infectious diseases, immunizations, and developmental pediatrics.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=10",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/77.jpg",
         "rating":  4.9,
         "experience":  9,
         "availableDays":  [
@@ -729,7 +729,7 @@
         "department":  "Orthopedics",
         "location":  "Gandhinagar",
         "bio":  "Dr. Manish Joshi is an orthopedic specialist focusing on minimally invasive surgery, knee and hip replacements.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=11",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/66.jpg",
         "rating":  4.7,
         "experience":  16,
         "availableDays":  [
@@ -800,7 +800,7 @@
         "department":  "Dermatology",
         "location":  "Kota",
         "bio":  "Dr. Rekha Pillai specializes in eczema, psoriasis, and advanced laser treatments for skin rejuvenation.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=12",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/88.jpg",
         "rating":  4.5,
         "experience":  7,
         "availableDays":  [
@@ -871,7 +871,7 @@
         "department":  "Internal Medicine",
         "location":  "Bangalore",
         "bio":  "Dr. Rohit Agarwal provides comprehensive primary care with a focus on diabetes management and hypertension.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=13",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/77.jpg",
         "rating":  4.4,
         "experience":  13,
         "availableDays":  [
@@ -944,7 +944,7 @@
         "department":  "Oncology",
         "location":  "Patna",
         "bio":  "Dr. Neha Bhatia is an oncologist with expertise in colorectal cancer, immunotherapy, and clinical trials.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=14",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/11.jpg",
         "rating":  4.8,
         "experience":  19,
         "availableDays":  [
@@ -1015,7 +1015,7 @@
         "department":  "Cardiology",
         "location":  "Lucknow",
         "bio":  "Dr. Sanjay Mishra is an interventional cardiologist specializing in angioplasty, stenting, and structural heart disease.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=15",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/88.jpg",
         "rating":  4.9,
         "experience":  25,
         "availableDays":  [
@@ -1086,7 +1086,7 @@
         "department":  "Neurology",
         "location":  "Noida",
         "bio":  "Dr. Pooja Rao focuses on headache disorders, sleep medicine, and cognitive neurology.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=16",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/22.jpg",
         "rating":  4.6,
         "experience":  11,
         "availableDays":  [
@@ -1157,7 +1157,7 @@
         "department":  "Orthopedics",
         "location":  "Gandhinagar",
         "bio":  "Dr. Anil Tiwari specializes in pediatric orthopedics, scoliosis correction, and limb deformity treatment.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=17",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/33.jpg",
         "rating":  4.7,
         "experience":  21,
         "availableDays":  [
@@ -1228,7 +1228,7 @@
         "department":  "Dermatology",
         "location":  "Kota",
         "bio":  "Dr. Smita Desai is a cosmetic and medical dermatologist specializing in Mohs surgery and skin cancer treatment.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=18",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/99.jpg",
         "rating":  4.8,
         "experience":  14,
         "availableDays":  [
@@ -1299,7 +1299,7 @@
         "department":  "Internal Medicine",
         "location":  "Bangalore",
         "bio":  "Dr. Kiran Malhotra is a family medicine physician with a focus on geriatric care, preventive screenings, and lifestyle medicine.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=19",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/44.jpg",
         "rating":  4.4,
         "experience":  30,
         "availableDays":  [
@@ -1375,7 +1375,7 @@
         "department":  "Pediatrics",
         "location":  "Patna",
         "bio":  "Dr. Divya Chaudhary is a pediatric endocrinologist specializing in childhood diabetes, growth disorders, and thyroid conditions.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=20",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/44.jpg",
         "rating":  4.9,
         "experience":  5,
         "availableDays":  [
@@ -1449,7 +1449,7 @@
         "cabin":  "Cabin 201 - Gynecology Wing",
         "consultationFee":  750,
         "bio":  "Dr. Nandita Krishnan is a senior gynecologist with 16 years of experience in high-risk pregnancies and laparoscopic surgery.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=21",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/55.jpg",
         "rating":  4.8,
         "experience":  16,
         "availableDays":  [
@@ -1520,7 +1520,7 @@
         "cabin":  "Cabin 104 - Cardiology Wing",
         "consultationFee":  900,
         "bio":  "Dr. Harish Balasubramanian is an interventional cardiologist specialising in complex coronary interventions and structural heart disease.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=22",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/99.jpg",
         "rating":  4.9,
         "experience":  22,
         "availableDays":  [
@@ -1591,7 +1591,7 @@
         "cabin":  "Cabin 401 - Psychiatry Wing",
         "consultationFee":  700,
         "bio":  "Dr. Meera Iyer is a psychiatrist with expertise in anxiety disorders, depression, and cognitive behavioural therapy.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=23",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/66.jpg",
         "rating":  4.7,
         "experience":  13,
         "availableDays":  [
@@ -1662,7 +1662,7 @@
         "cabin":  "Cabin 303 - Urology Wing",
         "consultationFee":  800,
         "bio":  "Dr. Ravi Shankar Pillai specialises in minimally invasive urological procedures, kidney stones, and prostate disorders.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=24",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/12.jpg",
         "rating":  4.6,
         "experience":  18,
         "availableDays":  [
@@ -1733,7 +1733,7 @@
         "cabin":  "Cabin 202 - Gynecology Wing",
         "consultationFee":  500,
         "bio":  "Dr. Shweta Sinha is an obstetrician and gynaecologist with expertise in maternal-foetal medicine and minimally invasive surgery.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=25",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/77.jpg",
         "rating":  4.7,
         "experience":  14,
         "availableDays":  [
@@ -1804,7 +1804,7 @@
         "cabin":  "Cabin 313 - Orthopedics Wing",
         "consultationFee":  650,
         "bio":  "Dr. Aakash Tiwari is an orthopedic surgeon specialising in sports injuries, arthroscopy, and joint replacement surgeries.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=26",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/23.jpg",
         "rating":  4.6,
         "experience":  11,
         "availableDays":  [
@@ -1875,7 +1875,7 @@
         "cabin":  "Cabin 214 - Dermatology Wing",
         "consultationFee":  550,
         "bio":  "Dr. Priyanka Jha is a dermatologist specialising in cosmetic dermatology, hair loss treatment, and skin allergy management.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=27",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/27.jpg",
         "rating":  4.5,
         "experience":  9,
         "availableDays":  [
@@ -1946,7 +1946,7 @@
         "cabin":  "Cabin 405 - Gastroenterology Wing",
         "consultationFee":  750,
         "bio":  "Dr. Vivek Chandra is a gastroenterologist with expertise in endoscopy, liver diseases, and inflammatory bowel disorders.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=28",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/28.jpg",
         "rating":  4.8,
         "experience":  17,
         "availableDays":  [
@@ -2017,7 +2017,7 @@
         "cabin":  "Cabin 106 - Pediatrics Wing",
         "consultationFee":  500,
         "bio":  "Dr. Alka Srivastava is a paediatrician with a focus on neonatal care, childhood nutrition, and developmental disorders.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=29",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/29.jpg",
         "rating":  4.7,
         "experience":  15,
         "availableDays":  [
@@ -2088,7 +2088,7 @@
         "cabin":  "Cabin 306 - Oncology Wing",
         "consultationFee":  950,
         "bio":  "Dr. Mohit Saxena is an oncologist specialising in haematological malignancies, targeted therapy, and bone marrow transplants.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=30",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/30.jpg",
         "rating":  4.9,
         "experience":  20,
         "availableDays":  [
@@ -2159,7 +2159,7 @@
         "cabin":  "Cabin 501 - Ophthalmology Wing",
         "consultationFee":  600,
         "bio":  "Dr. Tanvi Kapoor is an ophthalmologist specialising in cataract surgery, LASIK, and retinal disorders.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=31",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/31.jpg",
         "rating":  4.7,
         "experience":  12,
         "availableDays":  [
@@ -2230,7 +2230,7 @@
         "cabin":  "Cabin 105 - Cardiology Wing",
         "consultationFee":  850,
         "bio":  "Dr. Siddharth Malhotra is a cardiologist with expertise in echocardiography, cardiac imaging, and preventive cardiology.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=32",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/32.jpg",
         "rating":  4.8,
         "experience":  19,
         "availableDays":  [
@@ -2301,7 +2301,7 @@
         "cabin":  "Cabin 407 - Endocrinology Wing",
         "consultationFee":  700,
         "bio":  "Dr. Ritu Agarwal is an endocrinologist specialising in diabetes management, thyroid disorders, and hormonal imbalances.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=33",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/33.jpg",
         "rating":  4.6,
         "experience":  14,
         "availableDays":  [
@@ -2372,7 +2372,7 @@
         "cabin":  "Cabin 208 - Neurology Wing",
         "consultationFee":  750,
         "bio":  "Dr. Gaurav Bhatia is a neurologist with expertise in epilepsy, movement disorders, and neuro-rehabilitation.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=34",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/34.jpg",
         "rating":  4.7,
         "experience":  16,
         "availableDays":  [
@@ -2443,7 +2443,7 @@
         "cabin":  "Cabin 203 - Gynecology Wing",
         "consultationFee":  600,
         "bio":  "Dr. Hetal Shah is a gynaecologist with expertise in infertility treatment, laparoscopic surgery, and prenatal care.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=35",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/35.jpg",
         "rating":  4.8,
         "experience":  15,
         "availableDays":  [
@@ -2514,7 +2514,7 @@
         "cabin":  "Cabin 315 - Orthopedics Wing",
         "consultationFee":  700,
         "bio":  "Dr. Chirag Patel is an orthopedic surgeon with expertise in robotic joint replacement and complex spine surgeries.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=36",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/36.jpg",
         "rating":  4.7,
         "experience":  17,
         "availableDays":  [
@@ -2585,7 +2585,7 @@
         "cabin":  "Cabin 217 - Dermatology Wing",
         "consultationFee":  600,
         "bio":  "Dr. Foram Desai is a dermatologist specialising in vitiligo treatment, cosmetic procedures, and paediatric dermatology.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=37",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/37.jpg",
         "rating":  4.6,
         "experience":  10,
         "availableDays":  [
@@ -2656,7 +2656,7 @@
         "cabin":  "Cabin 406 - Gastroenterology Wing",
         "consultationFee":  550,
         "bio":  "Dr. Rajendra Sharma is a gastroenterologist with expertise in colonoscopy, hepatitis management, and GI oncology.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=38",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/38.jpg",
         "rating":  4.6,
         "experience":  18,
         "availableDays":  [
@@ -2727,7 +2727,7 @@
         "cabin":  "Cabin 502 - Ophthalmology Wing",
         "consultationFee":  500,
         "bio":  "Dr. Sunita Goyal is an ophthalmologist with expertise in glaucoma management, corneal transplants, and paediatric eye care.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=39",
+        "avatarUrl":  "https://randomuser.me/api/portraits/women/39.jpg",
         "rating":  4.5,
         "experience":  12,
         "availableDays":  [
@@ -2798,7 +2798,7 @@
         "cabin":  "Cabin 119 - General Medicine Wing",
         "consultationFee":  400,
         "bio":  "Dr. Pankaj Meena is a general physician with expertise in infectious diseases, preventive medicine, and chronic disease management.",
-        "avatarUrl":  "https://i.pravatar.cc/150?img=40",
+        "avatarUrl":  "https://randomuser.me/api/portraits/men/40.jpg",
         "rating":  4.4,
         "experience":  10,
         "availableDays":  [
