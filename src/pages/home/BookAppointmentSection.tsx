@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { CalendarDays, ArrowRight, Clock, MapPin, Star } from 'lucide-react';
+import { useQuery } from '@tanstack/react-query';
 import { Button } from '@/components/ui';
+import { fetchDoctors } from '@/data/fetchers';
 
-const featured = [
-  { id: 'd1', name: 'Dr. Arjun Sharma',   specialty: 'Cardiology',   img: 'https://randomuser.me/api/portraits/men/11.jpg',    rating: 4.9, location: 'Bangalore', exp: 20 },
-  { id: 'd2', name: 'Dr. Priya Nair',     specialty: 'Neurology',    img: 'https://randomuser.me/api/portraits/women/44.jpg',  rating: 4.8, location: 'Patna',     exp: 15 },
-  { id: 'd3', name: 'Dr. Rajesh Kumar',   specialty: 'Orthopedics',  img: 'https://randomuser.me/api/portraits/men/22.jpg',    rating: 4.7, location: 'Lucknow',   exp: 18 },
-];
+// fallback IDs to show in the featured section
+const FEATURED_IDS = ['d1', 'd2', 'd3'];
 
 export function BookAppointmentSection() {
+  const { data: allDoctors = [] } = useQuery({ queryKey: ['doctors'], queryFn: fetchDoctors });
+  const featured = allDoctors.filter(d => FEATURED_IDS.includes(d.id));
   return (
     <section id="book-appointment" className="py-16 px-6 bg-white border-t border-slate-100">
       <div className="max-w-6xl mx-auto">
@@ -39,7 +40,7 @@ export function BookAppointmentSection() {
               className="bg-white rounded-2xl border border-slate-100 shadow-card hover:shadow-card-hover transition-shadow p-5 flex flex-col"
             >
               <div className="flex items-center gap-3 mb-4">
-                <img src={doc.img} alt={doc.name} className="w-14 h-14 rounded-2xl object-cover border-2 border-[#d4ecf2]" />
+                <img src={doc.avatarUrl} alt={doc.name} className="w-14 h-14 rounded-2xl object-cover border-2 border-[#d4ecf2]" />
                 <div className="min-w-0">
                   <h3 className="font-bold text-[#1a2e3b] text-sm truncate">{doc.name}</h3>
                   <p className="text-primary-600 text-xs font-medium">{doc.specialty}</p>
@@ -51,7 +52,7 @@ export function BookAppointmentSection() {
               </div>
               <div className="flex items-center gap-3 text-xs text-slate-500 mb-4">
                 <span className="flex items-center gap-1"><MapPin size={11} />{doc.location}</span>
-                <span className="flex items-center gap-1"><Clock size={11} />{doc.exp} yrs</span>
+                <span className="flex items-center gap-1"><Clock size={11} />{doc.experience} yrs</span>
                 <span className="flex items-center gap-1"><Star size={11} className="text-amber-400 fill-amber-400" />{doc.rating}</span>
               </div>
               <Link to={`/booking?doctorId=${doc.id}`} className="mt-auto">
