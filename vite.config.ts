@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/MediCare_frontend_code/',
   plugins: [react()],
   resolve: {
     alias: {
