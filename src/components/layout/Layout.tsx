@@ -16,7 +16,7 @@ export function Layout({ children, showSidebar = false, sidebarRole }: LayoutPro
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#e8eef5' }}>
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#e8eef5' }}>
       <Header />
       {showSidebar && sidebarRole && (
         <>
@@ -36,7 +36,7 @@ export function Layout({ children, showSidebar = false, sidebarRole }: LayoutPro
           />
         </>
       )}
-      <main className={showSidebar ? 'md:ml-60' : ''}>
+      <main className={`flex-1 ${showSidebar ? 'md:ml-60' : ''}`}>
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}
