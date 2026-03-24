@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Star, MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
 import { fetchDoctors } from '@/data/fetchers';
 import { Button } from '@/components/ui';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 function SkeletonCard() {
   return (
@@ -62,6 +62,19 @@ export function DoctorsCarousel() {
   const next = () => {
     if (atEnd) return;
     setSlide({ index: current + 1, dir: 1 });
+  };
+
+  // Touch swipe — separate from animation so they never interfere
+  const touchStartX = useRef<number | null>(null);
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const diff = touchStartX.current - e.changedTouches[0].clientX;
+    if (diff > 40) next();
+    else if (diff < -40) prev();
+    touchStartX.current = null;
   };
 
   return (
@@ -127,7 +140,11 @@ export function DoctorsCarousel() {
           {isLoading ? (
             <SkeletonCard />
           ) : (
-            <div className="relative overflow-hidden">
+            <div
+              className="relative overflow-hidden"
+              onTouchStart={onTouchStart}
+              onTouchEnd={onTouchEnd}
+            >
               <AnimatePresence mode="popLayout" initial={false} custom={dir}>
                 <motion.div
                   key={current}
@@ -141,13 +158,6 @@ export function DoctorsCarousel() {
                   animate="center"
                   exit="exit"
                   transition={{ duration: 0.28, ease: 'easeInOut' }}
-                  drag="x"
-                  dragConstraints={{ left: 0, right: 0 }}
-                  dragElastic={0.15}
-                  onDragEnd={(_, info) => {
-                    if (info.offset.x < -40) next();
-                    else if (info.offset.x > 40) prev();
-                  }}
                 >
                   <DoctorCardItem doctor={displayed[current]} />
                 </motion.div>
