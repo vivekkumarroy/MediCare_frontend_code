@@ -47,16 +47,21 @@ function DoctorCardItem({ doctor }: { doctor: ReturnType<typeof Array.prototype.
 export function DoctorsCarousel() {
   const { data: doctors, isLoading } = useQuery({ queryKey: ['doctors'], queryFn: fetchDoctors });
   const displayed = doctors?.slice(0, 8) ?? [];
-  const [current, setCurrent] = useState(0);
-  const [dir, setDir] = useState(1);
+
+  // Single state so dir and index always update together — no stale animation direction
+  const [slide, setSlide] = useState({ index: 0, dir: 1 });
+  const { index: current, dir } = slide;
+
+  const atStart = current === 0;
+  const atEnd = current === displayed.length - 1;
 
   const prev = () => {
-    setDir(-1);
-    setCurrent(i => (i === 0 ? displayed.length - 1 : i - 1));
+    if (atStart) return;
+    setSlide({ index: current - 1, dir: -1 });
   };
   const next = () => {
-    setDir(1);
-    setCurrent(i => (i === displayed.length - 1 ? 0 : i + 1));
+    if (atEnd) return;
+    setSlide({ index: current + 1, dir: 1 });
   };
 
   return (
@@ -151,7 +156,7 @@ export function DoctorsCarousel() {
               {displayed.map((_, i) => (
                 <button
                   key={i}
-                  onClick={() => { setDir(i > current ? 1 : -1); setCurrent(i); }}
+                  onClick={() => setSlide({ index: i, dir: i > current ? 1 : -1 })}
                   className={`w-1.5 h-1.5 rounded-full transition-all ${i === current ? 'bg-primary-500 w-4' : 'bg-slate-300'}`}
                 />
               ))}
@@ -162,7 +167,8 @@ export function DoctorsCarousel() {
           <div className="flex items-center justify-center gap-3 mt-5">
             <button
               onClick={prev}
-              className="w-9 h-9 rounded-full border border-slate-300 bg-white flex items-center justify-center text-slate-600 active:scale-95 transition-transform"
+              disabled={atStart}
+              className="w-9 h-9 rounded-full border border-slate-300 bg-white flex items-center justify-center text-slate-600 active:scale-95 transition-transform disabled:opacity-30 disabled:cursor-not-allowed"
             >
               <ChevronLeft size={18} />
             </button>
@@ -171,7 +177,8 @@ export function DoctorsCarousel() {
             </Link>
             <button
               onClick={next}
-              className="w-9 h-9 rounded-full border border-slate-300 bg-white flex items-center justify-center text-slate-600 active:scale-95 transition-transform"
+              disabled={atEnd}
+              className="w-9 h-9 rounded-full border border-slate-300 bg-white flex items-center justify-center text-slate-600 active:scale-95 transition-transform disabled:opacity-30 disabled:cursor-not-allowed"
             >
               <ChevronRight size={18} />
             </button>
