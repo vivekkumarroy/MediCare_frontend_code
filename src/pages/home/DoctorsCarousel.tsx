@@ -20,11 +20,17 @@ function SkeletonCard() {
 function DoctorCardItem({ doctor }: { doctor: ReturnType<typeof Array.prototype.find> }) {
   return (
     <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800 shadow-card p-5 flex flex-col items-center text-center w-full">
-      <img
-        src={doctor.avatarUrl}
-        alt={doctor.name}
-        className="w-14 h-14 rounded-full object-cover border-2 border-[#d4ecf2] mb-3"
-      />
+      {/* Fixed size container prevents layout shift when image loads */}
+      <div className="w-16 h-16 rounded-full border-2 border-[#d4ecf2] mb-3 overflow-hidden flex-shrink-0 bg-slate-100">
+        <img
+          src={doctor.avatarUrl}
+          alt={doctor.name}
+          width={64}
+          height={64}
+          className="w-full h-full object-cover"
+          loading="eager"
+        />
+      </div>
       <h3 className="font-semibold text-navy dark:text-white text-sm leading-tight mb-0.5">{doctor.name}</h3>
       <p className="text-primary-600 text-xs font-medium mb-1">{doctor.specialty}</p>
       <div className="flex items-center gap-1 text-xs text-slate-400 mb-2">
@@ -37,7 +43,7 @@ function DoctorCardItem({ doctor }: { doctor: ReturnType<typeof Array.prototype.
         ))}
         <span className="text-slate-400 text-xs ml-1">{doctor.rating.toFixed(1)}</span>
       </div>
-      <Link to={`/booking?doctorId=${doctor.id}`} className="w-full">
+      <Link to={`/booking?doctorId=${doctor.id}`} className="w-full mt-auto">
         <Button size="sm" className="w-full text-xs text-center justify-center">Book Now</Button>
       </Link>
     </div>
@@ -140,15 +146,15 @@ export function DoctorsCarousel() {
             >
               {/* Track: all cards side by side, translate to show current */}
               <div
-                className="flex"
+                className="flex items-stretch"
                 style={{
                   transform: `translateX(-${current * 100}%)`,
-                  transition: 'transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+                  transition: 'transform 0.42s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
                   willChange: 'transform',
                 }}
               >
                 {displayed.map((doctor) => (
-                  <div key={doctor.id} className="w-full flex-shrink-0">
+                  <div key={doctor.id} className="w-full flex-shrink-0 flex">
                     <DoctorCardItem doctor={doctor} />
                   </div>
                 ))}
