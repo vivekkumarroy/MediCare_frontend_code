@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Star, MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
 import { fetchDoctors } from '@/data/fetchers';
 import { Button } from '@/components/ui';
@@ -48,21 +48,14 @@ export function DoctorsCarousel() {
   const { data: doctors, isLoading } = useQuery({ queryKey: ['doctors'], queryFn: fetchDoctors });
   const displayed = doctors?.slice(0, 8) ?? [];
 
-  // Single state so dir and index always update together — no stale animation direction
-  const [slide, setSlide] = useState({ index: 0, dir: 1 });
-  const { index: current, dir } = slide;
+  const [slide, setSlide] = useState(0);
+  const current = slide;
 
   const atStart = current === 0;
   const atEnd = current === displayed.length - 1;
 
-  const prev = () => {
-    if (atStart) return;
-    setSlide({ index: current - 1, dir: -1 });
-  };
-  const next = () => {
-    if (atEnd) return;
-    setSlide({ index: current + 1, dir: 1 });
-  };
+  const prev = () => { if (!atStart) setSlide(current - 1); };
+  const next = () => { if (!atEnd) setSlide(current + 1); };
 
   // Touch swipe — separate from animation so they never interfere
   const touchStartX = useRef<number | null>(null);
@@ -135,33 +128,31 @@ export function DoctorsCarousel() {
               ))}
         </motion.div>
 
-        {/* Mobile: one card at a time with arrows + swipe */}
+        {/* Mobile: smooth sliding track */}
         <div className="sm:hidden">
           {isLoading ? (
             <SkeletonCard />
           ) : (
             <div
-              className="relative overflow-hidden"
+              className="overflow-hidden rounded-xl"
               onTouchStart={onTouchStart}
               onTouchEnd={onTouchEnd}
             >
-              <AnimatePresence mode="popLayout" initial={false} custom={dir}>
-                <motion.div
-                  key={current}
-                  custom={dir}
-                  variants={{
-                    enter: (d: number) => ({ x: d > 0 ? '100%' : '-100%', opacity: 0 }),
-                    center: { x: 0, opacity: 1 },
-                    exit: (d: number) => ({ x: d > 0 ? '-100%' : '100%', opacity: 0 }),
-                  }}
-                  initial="enter"
-                  animate="center"
-                  exit="exit"
-                  transition={{ duration: 0.28, ease: 'easeInOut' }}
-                >
-                  <DoctorCardItem doctor={displayed[current]} />
-                </motion.div>
-              </AnimatePresence>
+              {/* Track: all cards side by side, translate to show current */}
+              <div
+                className="flex"
+                style={{
+                  transform: `translateX(-${current * 100}%)`,
+                  transition: 'transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+                  willChange: 'transform',
+                }}
+              >
+                {displayed.map((doctor) => (
+                  <div key={doctor.id} className="w-full flex-shrink-0">
+                    <DoctorCardItem doctor={doctor} />
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
@@ -171,7 +162,7 @@ export function DoctorsCarousel() {
               {displayed.map((_, i) => (
                 <button
                   key={i}
-                  onClick={() => setSlide({ index: i, dir: i > current ? 1 : -1 })}
+                  onClick={() => setSlide(i)}
                   className={`w-1.5 h-1.5 rounded-full transition-all ${i === current ? 'bg-primary-500 w-4' : 'bg-slate-300'}`}
                 />
               ))}
