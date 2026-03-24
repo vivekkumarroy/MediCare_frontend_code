@@ -128,17 +128,22 @@ export function DoctorsCarousel() {
             <SkeletonCard />
           ) : (
             <div className="relative overflow-hidden">
-              <AnimatePresence mode="wait" initial={false} custom={dir}>
+              <AnimatePresence mode="popLayout" initial={false} custom={dir}>
                 <motion.div
                   key={current}
                   custom={dir}
-                  initial={{ x: dir * 60, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  exit={{ x: dir * -60, opacity: 0 }}
-                  transition={{ duration: 0.25 }}
+                  variants={{
+                    enter: (d: number) => ({ x: d > 0 ? '100%' : '-100%', opacity: 0 }),
+                    center: { x: 0, opacity: 1 },
+                    exit: (d: number) => ({ x: d > 0 ? '-100%' : '100%', opacity: 0 }),
+                  }}
+                  initial="enter"
+                  animate="center"
+                  exit="exit"
+                  transition={{ duration: 0.28, ease: 'easeInOut' }}
                   drag="x"
                   dragConstraints={{ left: 0, right: 0 }}
-                  dragElastic={0.2}
+                  dragElastic={0.15}
                   onDragEnd={(_, info) => {
                     if (info.offset.x < -40) next();
                     else if (info.offset.x > 40) prev();
