@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { motion } from 'framer-motion';
-import { Star, MapPin } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Star, MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
 import { fetchDoctors } from '@/data/fetchers';
 import { Button } from '@/components/ui';
+import { useState } from 'react';
 
 function SkeletonCard() {
   return (
@@ -16,9 +17,47 @@ function SkeletonCard() {
   );
 }
 
+function DoctorCardItem({ doctor }: { doctor: ReturnType<typeof Array.prototype.find> }) {
+  return (
+    <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800 shadow-card p-5 flex flex-col items-center text-center w-full">
+      <img
+        src={doctor.avatarUrl}
+        alt={doctor.name}
+        className="w-14 h-14 rounded-full object-cover border-2 border-[#d4ecf2] mb-3"
+      />
+      <h3 className="font-semibold text-navy dark:text-white text-sm leading-tight mb-0.5">{doctor.name}</h3>
+      <p className="text-primary-600 text-xs font-medium mb-1">{doctor.specialty}</p>
+      <div className="flex items-center gap-1 text-xs text-slate-400 mb-2">
+        <MapPin size={10} />
+        <span className="truncate max-w-[160px]">{doctor.location}</span>
+      </div>
+      <div className="flex items-center gap-0.5 mb-4">
+        {Array.from({ length: 5 }).map((_, j) => (
+          <Star key={j} size={11} className={j < Math.round(doctor.rating) ? 'text-amber-400' : 'text-slate-200'} fill={j < Math.round(doctor.rating) ? 'currentColor' : 'none'} />
+        ))}
+        <span className="text-slate-400 text-xs ml-1">{doctor.rating.toFixed(1)}</span>
+      </div>
+      <Link to={`/booking?doctorId=${doctor.id}`} className="w-full">
+        <Button size="sm" className="w-full text-xs">Book Now</Button>
+      </Link>
+    </div>
+  );
+}
+
 export function DoctorsCarousel() {
   const { data: doctors, isLoading } = useQuery({ queryKey: ['doctors'], queryFn: fetchDoctors });
   const displayed = doctors?.slice(0, 8) ?? [];
+  const [current, setCurrent] = useState(0);
+  const [dir, setDir] = useState(1);
+
+  const prev = () => {
+    setDir(-1);
+    setCurrent(i => (i === 0 ? displayed.length - 1 : i - 1));
+  };
+  const next = () => {
+    setDir(1);
+    setCurrent(i => (i === displayed.length - 1 ? 0 : i + 1));
+  };
 
   return (
     <section id="doctors" className="py-20 px-6" style={{ backgroundColor: '#e8e4d9' }}>
@@ -33,12 +72,13 @@ export function DoctorsCarousel() {
           </Link>
         </div>
 
+        {/* Desktop: horizontal scroll (unchanged) */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="flex overflow-x-auto gap-4 pb-4 -mx-2 px-2"
+          className="hidden sm:flex overflow-x-auto gap-4 pb-4 -mx-2 px-2"
           style={{ scrollbarWidth: 'none' }}
         >
           {isLoading
@@ -77,9 +117,60 @@ export function DoctorsCarousel() {
               ))}
         </motion.div>
 
-        <div className="text-center mt-6 sm:hidden">
-          <Link to="/doctors"><Button variant="outline" size="sm">View All Doctors</Button></Link>
+        {/* Mobile: one card at a time with arrows */}
+        <div className="sm:hidden">
+          {isLoading ? (
+            <SkeletonCard />
+          ) : (
+            <div className="relative overflow-hidden">
+              <AnimatePresence mode="wait" initial={false} custom={dir}>
+                <motion.div
+                  key={current}
+                  custom={dir}
+                  initial={{ x: dir * 60, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  exit={{ x: dir * -60, opacity: 0 }}
+                  transition={{ duration: 0.25 }}
+                >
+                  <DoctorCardItem doctor={displayed[current]} />
+                </motion.div>
+              </AnimatePresence>
+            </div>
+          )}
+
+          {/* Dot indicator */}
+          {!isLoading && (
+            <div className="flex justify-center gap-1.5 mt-4">
+              {displayed.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => { setDir(i > current ? 1 : -1); setCurrent(i); }}
+                  className={`w-1.5 h-1.5 rounded-full transition-all ${i === current ? 'bg-primary-500 w-4' : 'bg-slate-300'}`}
+                />
+              ))}
+            </div>
+          )}
+
+          {/* Arrows + View All button row */}
+          <div className="flex items-center justify-center gap-3 mt-5">
+            <button
+              onClick={prev}
+              className="w-9 h-9 rounded-full border border-slate-300 bg-white flex items-center justify-center text-slate-600 active:scale-95 transition-transform"
+            >
+              <ChevronLeft size={18} />
+            </button>
+            <Link to="/doctors">
+              <Button variant="outline" size="sm">View All Doctors</Button>
+            </Link>
+            <button
+              onClick={next}
+              className="w-9 h-9 rounded-full border border-slate-300 bg-white flex items-center justify-center text-slate-600 active:scale-95 transition-transform"
+            >
+              <ChevronRight size={18} />
+            </button>
+          </div>
         </div>
+
       </div>
     </section>
   );
