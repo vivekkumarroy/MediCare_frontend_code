@@ -224,7 +224,16 @@ export function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                onClick={() => { setAboutActive(false); setDoctorsActive(false); }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setAboutActive(false);
+                  setDoctorsActive(false);
+                  if (location.pathname === '/') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  } else {
+                    navigate('/');
+                  }
+                }}
                 className={cn(
                   'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
                   isActive
@@ -394,7 +403,17 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className="px-4 py-3 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 font-medium"
-                onClick={() => { setAboutActive(false); setDoctorsActive(false); setMobileOpen(false); }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setAboutActive(false);
+                  setDoctorsActive(false);
+                  setMobileOpen(false);
+                  if (location.pathname === '/') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  } else {
+                    navigate('/');
+                  }
+                }}
               >
                 {link.label}
               </a>
