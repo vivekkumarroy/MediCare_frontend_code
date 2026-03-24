@@ -38,7 +38,7 @@ function DoctorCardItem({ doctor }: { doctor: ReturnType<typeof Array.prototype.
         <span className="text-slate-400 text-xs ml-1">{doctor.rating.toFixed(1)}</span>
       </div>
       <Link to={`/booking?doctorId=${doctor.id}`} className="w-full">
-        <Button size="sm" className="w-full text-xs">Book Now</Button>
+        <Button size="sm" className="w-full text-xs text-center justify-center">Book Now</Button>
       </Link>
     </div>
   );
@@ -117,7 +117,7 @@ export function DoctorsCarousel() {
               ))}
         </motion.div>
 
-        {/* Mobile: one card at a time with arrows */}
+        {/* Mobile: one card at a time with arrows + swipe */}
         <div className="sm:hidden">
           {isLoading ? (
             <SkeletonCard />
@@ -131,6 +131,13 @@ export function DoctorsCarousel() {
                   animate={{ x: 0, opacity: 1 }}
                   exit={{ x: dir * -60, opacity: 0 }}
                   transition={{ duration: 0.25 }}
+                  drag="x"
+                  dragConstraints={{ left: 0, right: 0 }}
+                  dragElastic={0.2}
+                  onDragEnd={(_, info) => {
+                    if (info.offset.x < -40) next();
+                    else if (info.offset.x > 40) prev();
+                  }}
                 >
                   <DoctorCardItem doctor={displayed[current]} />
                 </motion.div>
