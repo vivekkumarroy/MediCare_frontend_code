@@ -95,7 +95,7 @@ function StarRating({ rating }: { rating: number }) {
 
 export function PatientReviewsSection() {
   return (
-    <section className="py-16 px-4" style={{ backgroundColor: '#f0f5fa' }}>
+    <section className="py-16 px-4 sm:px-6" style={{ backgroundColor: '#f0f5fa' }}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -109,11 +109,11 @@ export function PatientReviewsSection() {
         </div>
 
         {/* Reviews grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-1">
           {reviews.map((r, idx) => (
             <div
               key={r.id}
-              className={`bg-white rounded-2xl p-6 shadow-sm border border-slate-100 flex flex-col gap-4 hover:shadow-md transition-shadow w-full ${
+              className={`bg-white rounded-2xl p-6 shadow-sm border border-slate-100 flex flex-col gap-4 hover:shadow-md transition-shadow w-full box-border ${
                 idx === reviews.length - 1 && reviews.length % 3 === 1
                   ? 'lg:col-start-2'
                   : ''
