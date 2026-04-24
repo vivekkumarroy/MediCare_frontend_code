@@ -26,16 +26,19 @@
     "doctorId": "d1",
     "phone": "212-555-0201",
     "avatarUrl": "https://i.pravatar.cc/150?img=1"
+
+
   },
   {
     "id": "u4",
-    "name": "Dr. Priya Nair",
+    "name": "Dr. Priya gupta",
     "email": "sarah.mitchell@hospital.com",
     "password": "doctor456",
     "role": "doctor",
     "doctorId": "d2",
     "phone": "310-555-0202",
     "avatarUrl": "https://i.pravatar.cc/150?img=2"
+  
   },
   {
     "id": "u5",
